@@ -1,0 +1,170 @@
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    
+  }
+  
+.wrapper {
+    width: 645px;
+    position: absolute;
+    margin: 20px auto;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 0px auto;
+    margin-left: 20px;
+    height: auto;
+    float: left;
+        }
+ 
+#content {
+    width: 500px;
+    font-weight: bold;
+    font-size: 32px;
+    color: red;
+    height: 280px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 275px;  
+    border-style: solid;
+    background-size: 100%;
+    background-image: url("https://nerdist.com/wp-content/uploads/2017/09/The-Dark-Crystal-Featured-11222016.jpg"); 
+    background-repeat: no-repeat;
+    clear: both;
+         }
+
+#rules {
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: yellow;
+    height: auto;
+    margin-top: auto;
+    background-image: url("https://nerdist.com/wp-content/uploads/2017/05/maxresdefault-970x545.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: gray;
+    border-style: solid;
+    border-width: .2px;
+    border-color: black; 
+    }
+
+#computerNumber {
+    padding: 10px;
+    margin-top: 0px;
+    width: 35%;
+    height: 75px;
+    background: lightsalmon;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    border-style: solid;
+    border-width: .2px;
+    border-color: black; 
+    position: relative;
+     }
+
+#winsLosses {
+    float: right;
+    height: 75px;
+    width: 25%;
+    color: blue;
+    background: lightcoral;
+    vertical-align: top;
+    border-style: solid;
+    border-width: .2px;
+    border-color: black; 
+    right: 200px;
+    position: absolute;;
+            }
+ 
+#crystals {
+    padding: 3px;
+    margin-top: 15%;
+    height: 165px;
+    
+   }
+
+   #yourScoreIs {
+    padding: 3px;
+    width: 50%;
+    color: red;
+    background: lightblue;
+    border-style: solid;
+    border-width: .2px;
+    border-color: black; 
+    margin-top: 2%;
+    height: auto;
+    text-align: left;
+   }
+
+   #scoreHolder {
+    padding: 3px;
+    width: 50%;
+    height: 115px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;  
+    color: red;
+    background: lightblue;
+    border-style: solid;
+    border-width: .2px;
+    border-color: black; 
+    margin-top: 2%;
+   }
+
+#crystalOne {
+    height: 161px;
+    width: 161px;
+    vertical-align: top; 
+    position: absolute;
+    
+            }
+
+#crystalTwo {
+    height: 161px;
+    width: 161px;
+    vertical-align: top; 
+    right: 320px;
+    position: absolute;
+    
+            }
+
+ #crystalThree {
+    height: 161px;
+    width: 161px; 
+    position: absolute;
+    right: 159px;
+    vertical-align: top;
+    ;
+            }
+
+#crystalFour {
+    height: 161px;
+    width: 161px;
+    position: absolute;
+    right: -3px;
+    
+            }
+
+
+    
+
